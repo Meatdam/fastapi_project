@@ -1,5 +1,5 @@
 # Создание небольшого приложения на Fastapi
-# Создание репозитория
+## Создание репозитория
 _____
 ```
 git init
@@ -11,15 +11,15 @@ git branch -M main
 git push -u origin main
 ```
 
-# Подготовка сервера
+## Подготовка сервера
 _____
-## git
+### git
 ```
 sudo apt-get update
 sudo apt-get install git
 ```
 _____
-## docker
+### docker
 Можно воспользоваться инструкцией: https://docs.docker.com/engine/install/ubuntu/ или скопировать код ниже
 ```
 sudo apt-get update
@@ -37,7 +37,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 ______
-# Запуск приложения
+## Запуск приложения
 Создание образа (коробки) с приложением
 ```
 docker build . --tag fastapi_app
